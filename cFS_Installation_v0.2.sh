@@ -1,10 +1,9 @@
 #!/bin/bash
-# File 1
 #This File is designed to download, run and test cFS installed on Linux to Ensure Basic Compatibility
 #
-#v0.1 - Follows instructions stated on https://github.com/nasa/cFS
-#Errors:
+#v0.2 - Follows instructions stated on https://github.com/nasa/cFS plus additional prompts for system preperation
 #
+#This will run the simulation to test the system
 
 #System Preperation For Fresh Installations
 sudo apt install git
