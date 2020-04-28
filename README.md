@@ -2,7 +2,7 @@
 Macquarie University Thesis - Soft-Core on FPGA for Space Applications using RISC-V and cFS
 
 
-File#1 - cFS_LinuxInstall
+cFS_Installation
 installs a version of the Core Flight System(cFS) from nasa, this file will be made to reduce re-typing commands during the testing phase. 
 
 The primary targets:
@@ -12,7 +12,7 @@ The primary targets:
 
 primary Software target is https://github.com/nasa/cFS, however may focus on previous version due to problems relating to missing files when following instructions.
 
-Known Issues:
+Known Issues That May Effect Future Scripts:
 1. Online examples found refer to older versions of software which have files that no longer exist such as setVars.sh
 2. Online examples found refer to older versions of software which have flags within files that no longer exist such as -m32
 3. While following latest documentation of https://github.com/nasa/cFS error occurs where files/folders are not found
@@ -21,11 +21,11 @@ README Specifications
 Revisions
 0.1
 Document Creation and basic information 28/04/2020
+0.2
+Additional information regarding cFS_Installation_v0.2
 
 Script Specifications
-
-File1.sh
-V0.1
+cFS_Installation_v0.1
 For Ubuntu 20.04
     - a Copy of the instructions from https://github.com/nasa/cFS
     -Fails to Complete Build and Run
@@ -34,7 +34,7 @@ Known Issues:
     -Error given cmake: not found
 
 
-V0.2
+cFS_Installation_v0.2
 For Ubuntu 20.04
     -Tested and runs SIMULATION
 Known Issues:
