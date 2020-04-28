@@ -17,9 +17,30 @@ Known Issues:
 2. Online examples found refer to older versions of software which have flags within files that no longer exist such as -m32
 3. While following latest documentation of https://github.com/nasa/cFS error occurs where files/folders are not found
 
+README Specifications
 Revisions
-0.1 
+0.1
 Document Creation and basic information 28/04/2020
 
+Script Specifications
+
+File1.sh
+V0.1
+For Ubuntu 20.04
+    - a Copy of the instructions from https://github.com/nasa/cFS
+    -Fails to Complete Build and Run
+Known Issues:
+    -Fails to excecute given instructions from https://github.com/nasa/cFS
+    -Error given cmake: not found
+
+
+V0.2
+For Ubuntu 20.04
+    -Tested and runs SIMULATION
+Known Issues:
+    -unknown sudo apt install "3rd party addition" required, https://github.com/nasa/cFE/blob/master/cmake/README.md lists prereq however it is not extensive
+    -known additionsal include cmake,make,git and mentions "-dev" and "-devel"
+    -when cloning from git, it is unable to be executed, partially due to permissions this can be corrected by the command chmod    +x ./File1.sh however when attempting to execute, file cnnot be found
+    -to execture open file in browser and copy/past and save as a .sh file, then execute
 
 Document By MQU_SID_44925905
