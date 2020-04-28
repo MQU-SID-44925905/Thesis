@@ -36,6 +36,17 @@ Known Issues:
 
 cFS_Installation_v0.2
 For Ubuntu 20.04
+
+How to install
+Copy text from Installation required
+save as "Name".sh
+open termial
+run commands:
+chmod +x ./"Name".sh
+./"Name".sh                     // This will run the shell script
+prompts will come up in the form y/n for prerequesite
+to cancel cFS ctrl+c
+
     -Tested and runs SIMULATION
 Known Issues:
     -unknown sudo apt install "3rd party addition" required, https://github.com/nasa/cFE/blob/master/cmake/README.md lists prereq however it is not extensive
