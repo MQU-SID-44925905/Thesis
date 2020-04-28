@@ -1,6 +1,6 @@
 #!/bin/bash
-File1_v0.1
-#This File is designed to download, run and test cFS installed on Linux to Ensure Basic Compatibility
+cFS_Installation_v0.1
+#This cFS_Installation is designed to download, run and test cFS installed on Linux to Ensure Basic Compatibility
 #Follows instructions stated on https://github.com/nasa/cFS
 
 #Setup
