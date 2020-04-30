@@ -23,6 +23,8 @@ Revisions
 Document Creation and basic information 28/04/2020
 0.2
 Additional information regarding cFS_Installation_v0.2
+1.0
+Instructions for installatoin on raspberry Pi are added running on older cFS
 
 Script Specifications
 cFS_Installation_v0.1
@@ -37,7 +39,11 @@ Known Issues:
 cFS_Installation_v0.2
 For Ubuntu 20.04
 
+cFS_Installation_Instructions_v1.0
+For 2020-02-12-rpd-x86-buster.iso
+
 How to install
+**due to unknown reasons a direct copy of the fille will not execute, those with more familiarity of git and linux may be able to directly download and execute**
 Copy text from Installation required
 save as "Name".sh
 open termial
@@ -48,10 +54,12 @@ prompts will come up in the form y/n for prerequesite
 to cancel cFS ctrl+c
 
     -Tested and runs SIMULATION
-Known Issues:
+Known Issues For v0.2 on Raspberry Pi:
     -unknown sudo apt install "3rd party addition" required, https://github.com/nasa/cFE/blob/master/cmake/README.md lists prereq however it is not extensive
     -known additionsal include cmake,make,git and mentions "-dev" and "-devel"
     -when cloning from git, it is unable to be executed, partially due to permissions this can be corrected by the command chmod    +x ./File1.sh however when attempting to execute, file cnnot be found
     -to execture open file in browser and copy/past and save as a .sh file, then execute
 
+Known Issues For v1.0 on Raspberry Pi:
+    -when following instructions warnings will come up in pink, however none of tese warnings turn into an error that stops execution.
 Document By MQU_SID_44925905
