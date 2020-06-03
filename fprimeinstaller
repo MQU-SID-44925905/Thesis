@@ -1,0 +1,27 @@
+sudo apt install cmake
+sudo apt install git
+sudo apt install bash
+sudo apt install python3
+sudo apt-get install python3-venv
+sudo apt install virtualenv
+sudo apt-get install clang
+sudo apt-get install gcc
+
+python3 -m venv ./fprime-venv
+. ./fprime-venv/bin/activate
+
+git clone https://github.com/nasa/fprime
+
+cd
+cd fprime
+
+pip install wheel
+pip install ./Fw/Python
+pip install ./Gds
+
+cd Ref
+fprime-util generate					<<fprime-util generate raspberrypi
+fprime-util build --jobs 32				<<fprime-util build raspberrypi
+fprime-util install --jobs 32				<<fprime-util install raspberrypi
+cd
+fprime-gds -g html -d fprime/Ref
